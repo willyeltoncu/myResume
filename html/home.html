@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+body, h1,h2,h3,h4,h5,h6, pre, i {font-family: "Montserrat", sans-serif}
 .w3-row-padding img {margin-bottom: 12px}
 /* Set the width of the sidebar to 120px */
 .w3-sidebar {width: 120px;background: #222;}
@@ -69,10 +69,18 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="school">
     <h2 class="w3-text-light-grey">School</h2>
     <hr style="width:200px" class="w3-opacity">
-    <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    <p>
+    <img src="../img/buffs_logo.png" align="right"  width="128px" height="96px"> 
+    <!-- Image is from wikipedia entry. https://en.wikipedia.org/wiki/Colorado_Buffaloes -->
+    My name is William Yelton.  I graduated from the University of Colorado Boulder in 2022 with a B.S. in Computer Science.  I graduated with 
+    a 3.35 GPA. TEXT TEXT TEXT
+
+    <!-- <div style="text-align: right;"><img src="../img/buffs_logo.png" width="128px" height="128px"></div> -->
     </p>
+
+    <br>
+
+
     <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
     <p class="w3-wide">Python</p>
     <div class="w3-white">
@@ -80,38 +88,23 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     </div>
     <p class="w3-wide">C/C++</p>
     <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:60%"></div>
+    </div>
+    <p class="w3-wide">SQL</p>
+    <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:85%"></div>
     </div>
-    <p class="w3-wide">Photoshop</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
-    </div><br>
-    
-    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">11+</span><br>
-        Partners
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">55+</span><br>
-        Projects Done
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">89+</span><br>
-        Happy Clients
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">150+</span><br>
-        Meetings
-      </div>
     </div>
       
   <!-- Work Exp Section -->
   <div class="w3-padding-64 w3-content" id="work">
     <h2 class="w3-text-light-grey">Work Experience</h2>
     <hr style="width:200px" class="w3-opacity">
+    <pre><span class="inner-pre">
+  E-Commerce Team Member; Whole Foods Market 	                                                                    July 2021 - November 2021
+  Package Handler; Fedex Ground (Boulder, CO) 	                                                                  August 2020 - October 2020
 
-   
+    </span></pre>
     </div>
   <!-- End Work Exp Section -->
   </div>
@@ -134,7 +127,30 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <div class="w3-padding-64 w3-content w3-text-grey" id="projects">
     <h2 class="w3-text-light-grey">My CS Projects</h2>
     <hr style="width:200px" class="w3-opacity">
+    <h4>
+      Saber Baseball Capstone, Lead Back End Developer | CU Boulder Senior Project | Fall 2021-Spring 2022
+      <br>
+      <i>Curve10</i>
+      <br>
+      <h6 style="font-size: 14px; color:#FAF9F6;"> 
+        <!-- Offwhite text color -->
+        Updated Curve10's years old fantasy baseball simulator to more modern standards.  The majority of the work was spent updating old code to ES6 format, taking advatage of asynchronous 
+        function calls.  The primary focus was to make the code run more efficently.  After the efficency updates the team was able to update the look of the front end and admin tools as well as
+        impliment new features within the baseball simulator.  Visual updates centered around removing all traces of a defunct former sponsor.  Sandbox mode was added, this allowed a team owner
+        to use any player for any poisiton regardless of the player's eligibility in the league.
+      </h6>
+     
 
+
+    </h4>
+    <h4>
+      Car Driving Agent, Project Team Member | CU Boulder | Spring 2022 
+      <br>
+      <i>Machine Learning</i>
+
+
+
+    </h4>
   <!-- End PROJ Section -->
   </div>
 
